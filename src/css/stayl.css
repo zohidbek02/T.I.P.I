@@ -420,6 +420,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.4s;
+  margin-top: 20px;
 }
 button:hover {
   background-color: #1a252f;
@@ -607,7 +608,6 @@ textarea {
   }
   .contact-link__itme a>i{
     font-size: 17px;
-    margin: 10px;
 
   }
   .footer-wrap img{
@@ -700,10 +700,6 @@ textarea {
     width: 150px;
   }
 
-  .contact-wrap{
-    justify-content: center;
-    flex-wrap: wrap;
-  }
   .contact-link__itme a{
     font-size: 13px;
   }
@@ -744,6 +740,10 @@ textarea {
   }
   #contact{
     text-align: center;
+  }
+  .contact-wrap{
+    justify-content: center;
+    flex-wrap: wrap;
   }
   .footer-wrap ul{
     display: flex;
@@ -843,5 +843,9 @@ textarea {
     left: 100px;
     top: 60px;
     width: 150px;
+  }
+  .contact-link__itme{
+    font-size: 10px;
+    margin: 0;
   }
 }
